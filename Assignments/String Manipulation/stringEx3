@@ -1,0 +1,16 @@
+#Name:      Ratanjot Pabla
+#StudentNo: 32700826
+#File_Name: stringEx3.py
+#Teacher:   Mr. Sarros
+#Purpose:   This program will ask the user to input a sentence and it will
+            #display it back with one word per line.
+
+
+sentence = input("Please enter a sentence of your choice:")     #Asks the user to enter a a sentence.
+txt = sentence.split()                                          #This will split the the sentence between each word written.
+
+for words in txt:                                               #for statement:
+    print(words)                                                #After each space in the sentence, the program will output that word into a new line. 
+                                          
+
+

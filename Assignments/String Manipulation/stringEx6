@@ -1,0 +1,20 @@
+#Name:      Ratanjot Pabla
+#StudentNo: 32700826
+#File_Name: stringEx6.py
+#Teacher:   Mr. Sarros
+#Purpose:   This program will ask the user to input a string and it will output 
+            #how many lowercase and uppercase letters there are in the string.
+
+string = input("Please enter a string:")            #The user will input a string
+count = 0                                           #The variable to count the lowercase letters is set to a value of 0
+count1 = 0                                          #The variable to count the uppercase letters is set to a value of 0
+
+for words in string:                                #for and if statement
+    if words.islower():                             #if the letter in the string is lowercase,
+        count = count+1                             #The count for the variable count will increase by 1 each time 
+print("There are %i lowercase letters."%(count))    #This will output the total number of lowercase letters in the string
+
+for words in string:                                #for and if statement
+    if words.isupper():                             #if the letter in the string is uppercase, 
+        count1 = count1+1                           #The count for the variable count1 will increase by 1 each time
+print ("There are %i uppercase letters."%(count1))  #This will output the total number of uppercase letters in the string 

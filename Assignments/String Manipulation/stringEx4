@@ -1,0 +1,12 @@
+#Name:      Ratanjot Pabla
+#StudentNo: 32700826
+#File_Name: stringEx4.py
+#Teacher:   Mr. Sarros
+#Purpose:   This program will ask the user to input a number which will create a
+            #n*n box of X's on the screen.
+
+number = int(input("Please enter a number:"))   #This will ask the user to input any number
+
+for words in range(0,number):                   #for in range statement, creating rows of X's as the same number of times as the input 
+    print("X"*number)                           #It will print the letter X for the number of times as the input                          
+

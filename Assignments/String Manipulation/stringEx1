@@ -1,0 +1,17 @@
+#Name:          Ratanjot Pabla
+#StudentNo:     32700826
+#File_Name:     stringEx1.py
+#Teacher:       Mr.Sarros
+#Purpose:       This program is used to ask the user for their full name. It
+                #will then print it back but in the sequence of their last
+                name first, followed by their first name.
+
+
+
+
+
+name = input("What is your full name?")     #This will ask the user for their full name
+n = name.find(' ')                          #This will find the space in the person's name
+print(name[n + 1:] + "," + name[:n])        #Once finding the space, it will ouput whatever is after the space followed by what comes before
+
+

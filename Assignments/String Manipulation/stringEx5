@@ -1,0 +1,14 @@
+#Name:      Ratanjot Pabla
+#StudentNo: 32700826
+#File_Name: stringEx5.py
+#Teacher:   Mr. Sarros
+#Purpose:   This program will ask the user to input a string and field size 
+            #which will be replaced by "." The final output will be the the
+            #certain number of dots the user inputted, followed by the string
+            #along with another set of the same number of dots. 
+
+string = input("Please enter anything of your choice:")     #Asks the user to input a string.
+fieldsize = int(input("Please enter a number:"))            #Asks the user to input a number.
+
+dots = (fieldsize*".")                                      #The number inputted will be how many dots there are. 
+print(dots+string+dots)                                     #The final output will be the dots, followed by the string and the dots once again right after. 

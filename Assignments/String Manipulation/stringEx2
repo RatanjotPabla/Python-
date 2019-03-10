@@ -1,0 +1,15 @@
+#Name:      Ratanjot Pabla
+#StudentNo: 32700826
+#File_Name: stringEx2.py
+#Teacher:   Mr. Sarros
+#Purpose:   This program will ask the user to input the file name including the extension
+            #Then it will output whatever is after the period in the file name(extension)
+
+
+
+
+
+
+name = input("What is the file name of your program (include the extension)?")      #This will ask the user to input the file name including the extension
+n = name.find('.')                                                                  #This will find the period in the file name
+print(name[n+1:])                                                                   #Finally, it will ouput whatever comes after the period in the file name(extension)
